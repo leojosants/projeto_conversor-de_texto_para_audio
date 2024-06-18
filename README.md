@@ -1,2 +1,3 @@
-# projeto_conversor-de_texto_para_audio
-Projeto desenvolvido em HTML, CSS e JS
+# Projeto desenvolvido em HTML, CSS e JS
+
+Funcionalidade de conversão de texto para áudio diretamente no navegador, usando a API SpeechSynthesis.
