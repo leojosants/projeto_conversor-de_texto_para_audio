@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Conversor de Texto para Fala</title>
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<script src="./assets/javascript/scripts.js" defer></script>
+	</head>
+	<body>
+		<div class="class-container">
+			<h1>Conversor de <span>Texto</span> para <span>Fala</span></h1>
+
+			<p>Digite um texto ou envie algum arquivo para ser lido</p>
+
+			<div id="id-content-input">
+				<textarea
+					placeholder="Digite alguma coisa..."
+					id="id-text-input"
+					data-id="text-input"
+				></textarea>
+
+				<div>
+					<label
+						for="id-file-upload"
+						id="id-label-file"
+						title="Clique para enviar"
+					>
+						Enviar arquivo
+					</label>
+
+					<input
+						type="file"
+						id="id-file-upload"
+						accept=".txt"
+						data-id="file-upload"
+					/>
+				</div>
+			</div>
+
+			<div class="class-container__class-actions">
+				<div class="class-container__class-action-box">
+					<p>Selecione a voz:</p>
+					<select
+						id="id-voice-selection"
+						data-id="voice-selection"
+					></select>
+				</div>
+
+				<div class="class-container__class-action-box">
+					<p>Conteudo de texto</p>
+					<button id="id-listen-button" data-id="listen-button">
+						Ouvir
+					</button>
+				</div>
+
+				<div class="class-container__class-action-box">
+					<p>Campo de escrita</p>
+					<button id="id-clear-field" data-id="clear-field">Limpar</button>
+				</div>
+
+				<div class="class-container__class-action-box">
+					<p>Baixar conteúdo</p>
+					<button
+						id="id-download-text-button"
+						data-id="download-text-button"
+					>
+						Baixar
+					</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
